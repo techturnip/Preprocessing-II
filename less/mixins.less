@@ -1,1 +1,16 @@
 // Mixins in here
+.base-btn() {
+  font-size: 1.8rem;
+  width: 82%;
+  font-weight: 500;
+  color: white;
+  background-color: teal;
+  border-radius: 14px;
+  padding: 1.5rem 4rem;
+  text-align: center;
+
+  @media @mobile {
+    background-color: #17A2B8;
+    width: 95%;
+  }
+}
